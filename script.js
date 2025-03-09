@@ -61,32 +61,6 @@ const crosswalk = {
 light.addEventListener('click', function(e) {
   crosswalk.changeTheLight(e.target);
 });
-// isGreen.addEventListener('click',()=>{
-
-//   isGreen.classList.add('active');
-//   isRed.classList.remove('active');
-
-//   if (isGreen.style.backgroundColor=='green'){
-//     isGreen.style.backgroundColor='grey'
-//   }else{
-//     isGreen.style.backgroundColor='green'
-//     isRed.style.backgroundColor='grey'
-//   }
-// })
-
-// isRed.addEventListener('click',()=>{
-
-//   isGreen.classList.remove('active');
-//   isRed.classList.add('active');
-
-//   if (isRed.style.backgroundColor=='red'){
-//     isRed.style.backgroundColor='grey'
-//   }else{
-//     isRed.style.backgroundColor='red'
-//     isGreen.style.backgroundColor='grey'
-//   }
-// })
-
 
 button.addEventListener('click', () => {
     if (isGreen.classList.contains('active')) {
