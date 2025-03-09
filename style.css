@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.road{
+  margin-right: 10px;
+  width: fit-content;
+  }
+  
+.content{
+  margin: 20px 0 0 20px;
+  display: flex;
+}
+  
+.black-stripe, .white-stripe{
+  width: 250px;
+  height: 50px;
+}
+.black-stripe{
+  background-color: black;
+}
+.white-stripe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+img {
+  width: 20px;
+  height: auto;
+}
+
+.circle{
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+  
+
+.full_road{
+  display: flex;
+}
+  
+
+.container{
+  background-color: rgba(0,0,0,0.6);
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.modal{
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+
+.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.modal__form{
+  padding: 30px 10px;
+
+}
+
+/* .up,.down{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.modal__header{
+  display: flex; 
+  justify-content: space-between;
+  margin:10px;
+}
+
+.header__text{
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  width: 300px;
+
+}
+
+.header__close{
+  width: 20px;
+}
+
+
+.modal__name{
+  margin-bottom:15px;
+}
+
+ .modal__submit{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+} 
+
+.submit__button{
+  background-color: black;
+  border: none;
+  padding: 7px;
+  color: white;
+  border-radius: 9px;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+} 
+
+.submit__button:hover{
+  background-color: white;
+  color: black;
+}
+
+.red{
+  background-color: red;
+}
+
+#green.active {
+  background-color: green;
+}
+
+#red.active {
+  background-color: red;
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="full_road">
+  <main>
+    <div class="circle">
+      <div class='circle' id='green'></div>
+      <div class='circle active' id='red'></div>
+    </div>
+  </main>
+
+    <div class="content">
+      <div class="road">
+        <div class="white-stripe" data="1"></div>
+        <div class="black-stripe"></div>
+        <div class="white-stripe"></div>
+        <div class="black-stripe"></div>
+        <div class="white-stripe"></div>
+        <div class="black-stripe"></div>
+        <div class="white-stripe"></div>
+        <div class="black-stripe"></div>
+      </div>
+    </div>
+
+    <button class="go">Идти</button>
+  </div>
+
+  <div class="container">
+    <div class="modal">
+      <div class="modal__header">
+        <span class="header__text">Logo</span>
+        <img class="form" src="icon.svg" alt="">
+      </div>
+      <form action="" class="modal__form">
+        <div class="buttons">
+          <div>
+          <input type="radio" value="up" name="direction" class="up">Вверх
+          </div>
+          <div>
+        <input type="radio" value="down" name="direction" class="down">Вниз
+          </div>
+       </div>
+        <div class="modal__submit">
+          <button type='submit' class="submit__button">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
