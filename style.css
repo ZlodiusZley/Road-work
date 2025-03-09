@@ -84,11 +84,6 @@ img {
 
 }
 
-/* .up,.down{
-  display: flex;
-  flex-wrap: wrap;
-} */
-
 .modal__header{
   display: flex; 
   justify-content: space-between;
